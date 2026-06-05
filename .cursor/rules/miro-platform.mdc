@@ -5,7 +5,13 @@ alwaysApply: true
 
 # MiroNext Platform
 
-This project spans **3 repos**. Check which folder you are in before editing.
+This project spans **3 repos** — but **work only in the current repo by default**.
+
+## Scope rule (important)
+
+- **Default:** edit/read **only the repo you are in** (cwd or active workspace folder). Do NOT open, search, or change other repos unless asked.
+- **Cross-repo:** only when the user **explicitly** says so — e.g. "client رو هم آپدیت کن", "هر سه ریپو", "cross-repo", or they run `/platform-context`.
+- Knowing the map below is for orientation — not permission to touch other repos.
 
 ## Repos
 
@@ -15,7 +21,7 @@ This project spans **3 repos**. Check which folder you are in before editing.
 | **client** | `D:\copyTrade\nuxt_MiroNext` | github.com/mafiaboyh4/nuxt_MiroNext |
 | **admin** | `D:\react\react_admin_MiroNext` | github.com/mafiaboyh4/react_admin_MiroNext |
 
-Platform docs: `D:\copyTrade\platform\` — read `REPOS.md` and `ARCHITECTURE.md` for cross-repo tasks.
+Platform docs: `D:\copyTrade\platform\` — read `REPOS.md` and `ARCHITECTURE.md` **only for explicit cross-repo tasks**.
 
 ## Production
 
@@ -30,7 +36,7 @@ Platform docs: `D:\copyTrade\platform\` — read `REPOS.md` and `ARCHITECTURE.md
 - **client** owns user-facing Nuxt app — no direct DB
 - **admin** owns operator React panel — uses admin API routes
 
-## Cross-repo changes
+## Cross-repo changes (only when user asks)
 
 1. Change server DTO/endpoint first + tests
 2. Update client and/or admin API consumers

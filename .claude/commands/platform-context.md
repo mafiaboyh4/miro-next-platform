@@ -1,11 +1,12 @@
 ---
 name: platform-context
-description: Load MiroNext cross-repo platform map before any task that spans server, client, or admin
+description: OPT-IN only — load cross-repo map when user explicitly wants server+client+admin work
 ---
 
 # Platform Context
 
-Load cross-repo context **before** answering or writing code.
+**Run only when the user explicitly requests cross-repo work** (or types `/platform-context`).  
+For normal single-repo tasks, do NOT load other repos.
 
 ## Step 1 — Read platform docs (in order)
 
@@ -21,7 +22,7 @@ Based on current working directory, also read:
 | `srcbase/backend` or `nestjs_MiroNext` | `docs/ai-context/project-overview.md` |
 | `nuxt_MiroNext` | `docs/ai-context/context.md` |
 | `react_admin_MiroNext` | `docs/ai-context/context.md` |
-| `platform` | all three per-repo context files above |
+| `platform` | all three per-repo context files above (cross-repo mode) |
 
 ## Step 3 — Confirm
 

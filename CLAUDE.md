@@ -15,15 +15,14 @@ Architecture: [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ## Rules
 
+- **Scope:** work **only in the current repo** unless the user explicitly asks for cross-repo changes or runs `/platform-context`
 - **CRITICAL risk** — financial platform; verify math and full data paths
-- API changes start in **server**; frontends consume OpenAPI
-- Cross-repo tasks: read both repo's `docs/ai-context/` before coding
 - Never mutate DTOs; always add tests
 - Run `/verification-before-completion` before claiming done
 
-## Per-repo deep context
+## Per-repo deep context (current repo only)
 
-When editing a specific repo, also load its local context:
+Load **only** the repo you are working in:
 
 - server → `srcbase/backend/docs/ai-context/project-overview.md`
 - client → `nuxt_MiroNext/docs/ai-context/context.md`
