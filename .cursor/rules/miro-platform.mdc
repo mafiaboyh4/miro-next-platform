@@ -1,0 +1,39 @@
+---
+description: MiroNext multi-repo platform map (server + client + admin)
+alwaysApply: true
+---
+
+# MiroNext Platform
+
+This project spans **3 repos**. Check which folder you are in before editing.
+
+## Repos
+
+| Part | Local path | GitHub |
+|------|------------|--------|
+| **server** | `D:\copyTrade\srcbase\backend` | github.com/mafiaboyh4/nestjs_zco |
+| **client** | `D:\copyTrade\nuxt_MiroNext` | github.com/mafiaboyh4/nuxt_zcoTrade |
+| **admin** | `D:\react\react_admin_MiroNext` | github.com/mafiaboyh4/react_admin_zcotrade |
+
+Platform docs: `D:\copyTrade\platform\` — read `REPOS.md` and `ARCHITECTURE.md` for cross-repo tasks.
+
+## Production
+
+- API: `https://api.mironext.com/api/v1`
+- Swagger: `/api/docs`
+- Client: `https://mironext.com`
+- WebSocket: Socket.IO `/ws`
+
+## Boundaries
+
+- **server** owns API, DB, signals, payments — no UI
+- **client** owns user-facing Nuxt app — no direct DB
+- **admin** owns operator React panel — uses admin API routes
+
+## Cross-repo changes
+
+1. Change server DTO/endpoint first + tests
+2. Update client and/or admin API consumers
+3. Sync WebSocket handlers if events changed
+
+**Risk: CRITICAL** — verify financial math before claiming done.

@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "name": "platform",
+      "path": "."
+    },
+    {
+      "name": "server",
+      "path": "../srcbase/backend"
+    },
+    {
+      "name": "client",
+      "path": "../nuxt_MiroNext"
+    },
+    {
+      "name": "admin",
+      "path": "D:/react/react_admin_MiroNext"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.nuxt": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "vue.volar"
+    ]
+  }
+}
