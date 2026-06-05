@@ -7,9 +7,9 @@
 
 | Part | Role | Local path | GitHub |
 |------|------|------------|--------|
-| **server** | NestJS API, MT5 connector, signals, payments | `D:\copyTrade\srcbase\backend` | https://github.com/mafiaboyh4/nestjs_zco |
-| **client** | Nuxt 3 user-facing app | `D:\copyTrade\nuxt_MiroNext` | https://github.com/mafiaboyh4/nuxt_zcoTrade |
-| **admin** | React admin panel | `D:\react\react_admin_MiroNext` | https://github.com/mafiaboyh4/react_admin_zcotrade |
+| **server** | NestJS API, MT5 connector, signals, payments | `D:\copyTrade\srcbase\backend` | https://github.com/mafiaboyh4/nestjs_MiroNext |
+| **client** | Nuxt 3 user-facing app | `D:\copyTrade\nuxt_MiroNext` | https://github.com/mafiaboyh4/nuxt_MiroNext |
+| **admin** | React admin panel | `D:\react\react_admin_MiroNext` | https://github.com/mafiaboyh4/react_admin_MiroNext |
 | **platform** | Cross-repo docs + workspace | `D:\copyTrade\platform` | https://github.com/mafiaboyh4/miro-next-platform |
 
 ## Production URLs

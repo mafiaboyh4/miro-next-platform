@@ -18,8 +18,8 @@ Based on current working directory, also read:
 
 | If cwd contains | Read |
 |-----------------|------|
-| `srcbase/backend` or `nestjs_zco` | `docs/ai-context/project-overview.md` |
-| `nuxt_MiroNext` or `nuxt_zcoTrade` | `docs/ai-context/context.md` |
+| `srcbase/backend` or `nestjs_MiroNext` | `docs/ai-context/project-overview.md` |
+| `nuxt_MiroNext` | `docs/ai-context/context.md` |
 | `react_admin_MiroNext` | `docs/ai-context/context.md` |
 | `platform` | all three per-repo context files above |
 

@@ -11,9 +11,9 @@ This project spans **3 repos**. Check which folder you are in before editing.
 
 | Part | Local path | GitHub |
 |------|------------|--------|
-| **server** | `D:\copyTrade\srcbase\backend` | github.com/mafiaboyh4/nestjs_zco |
-| **client** | `D:\copyTrade\nuxt_MiroNext` | github.com/mafiaboyh4/nuxt_zcoTrade |
-| **admin** | `D:\react\react_admin_MiroNext` | github.com/mafiaboyh4/react_admin_zcotrade |
+| **server** | `D:\copyTrade\srcbase\backend` | github.com/mafiaboyh4/nestjs_MiroNext |
+| **client** | `D:\copyTrade\nuxt_MiroNext` | github.com/mafiaboyh4/nuxt_MiroNext |
+| **admin** | `D:\react\react_admin_MiroNext` | github.com/mafiaboyh4/react_admin_MiroNext |
 
 Platform docs: `D:\copyTrade\platform\` — read `REPOS.md` and `ARCHITECTURE.md` for cross-repo tasks.
 

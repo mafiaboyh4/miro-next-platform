@@ -17,9 +17,9 @@ clone_if_missing() {
 }
 
 clone_if_missing "$BASE/platform" "https://github.com/mafiaboyh4/miro-next-platform.git"
-clone_if_missing "$BASE/srcbase/backend" "https://github.com/mafiaboyh4/nestjs_zco.git"
-clone_if_missing "$BASE/nuxt_MiroNext" "https://github.com/mafiaboyh4/nuxt_zcoTrade.git"
-clone_if_missing "/d/react/react_admin_MiroNext" "https://github.com/mafiaboyh4/react_admin_zcotrade.git"
+clone_if_missing "$BASE/srcbase/backend" "https://github.com/mafiaboyh4/nestjs_MiroNext.git"
+clone_if_missing "$BASE/nuxt_MiroNext" "https://github.com/mafiaboyh4/nuxt_MiroNext.git"
+clone_if_missing "/d/react/react_admin_MiroNext" "https://github.com/mafiaboyh4/react_admin_MiroNext.git"
 
 echo ""
 echo "Open in Cursor: $BASE/MiroNext.code-workspace"
